@@ -74,13 +74,13 @@ PORO
 
 
 PERMX
-        200*100 /
+        200*1000 /
 
 PERMY
-        200*100 /
+        200*1000 /
 
 PERMZ
-        200*100 /
+        200*1000 /
 
 ECHO
 
@@ -181,9 +181,19 @@ EQUIL
 -- Item 9: Set to 0 as this is the only value supported by OPM
 
 -- Item #: 1 2    3    4 5    6 7 8 9
+<<<<<<< HEAD
 	0 200 1000 0 0 0 1 0 0 /
+=======
+	0 20 1000 0 0 0 1 0 10 /
+>>>>>>> a04d5275... adapting cases for comparison
 
 SCHEDULE
+
+
+BCPROP
+1 RATE GAS 0.1 /
+2 FREE /
+/
 
 RPTRST
         'BASIC=1' /

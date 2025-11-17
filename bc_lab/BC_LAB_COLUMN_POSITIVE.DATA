@@ -178,7 +178,7 @@ EQUIL
 -- Item 8: RVVD-table
 -- Item 9: Set to 0 as this is the only value supported by OPM
 -- Item #: 1   2     3   4   5   6   7 8  9
-          5 0.01    8   0   2   0   1 0 -4 /
+          5 0.01    8   0   2   0   1 0 4 /
 
 SCHEDULE
 -- -------------------------------------------------------------------------
