@@ -3,18 +3,19 @@
 -- individual contents of the database are licensed under the Database Contents
 -- License: http://opendatacommons.org/licenses/dbcl/1.0/
 
--- Copyright (C) 2022 NORCE
+-- Copyright (C) 2025 SINTEF
 
 --------------------------------------------------------------------------
------------------------- LAB - CASE 2 ------------------------------------
---- Test DIRICHLET boundary conditions using the BC keyword --------------
----------------------------------------------------------------------------
+-- COLUMN: CASE_TITLED_GRID
+-- PURPOSE: Test equilibration with positive EQLOPT3 parameter
+-- KEYWORD: EQUIL (item 9) - Equilibrium data specification
+--------------------------------------------------------------------------
 
 RUNSPEC
 -- -------------------------------------------------------------------------
 
 TITLE
-   LAB - CASE 1
+   COLUMN - CASE 1
 
 DIMENS
    1 1 10 /
